@@ -5,6 +5,7 @@ import vuetify from './plugins/vuetify'
 import { loadFonts } from './plugins/webfontloader'
 import './index.css'
 import { MotionPlugin } from '@vueuse/motion'
+import 'animate.css';
 loadFonts()
 
 createApp(App)

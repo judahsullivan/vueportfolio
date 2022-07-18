@@ -1,3 +1,5 @@
 <template> 
-<h1>this is the reviews page</h1>
+<div class="h-screen bg-violet-300">
+
+</div>
 </template>

@@ -1,7 +1,15 @@
 <template >
-<div class="bg-gradient-to-r from-cyan-500 to-blue-400 h-screen">
+<div >
     <NavigationMenu/>
+    <transition
+    mode="in-out"
+    enter-active-class="animate__animated animate__fadeIn "
+    leave-active-class=" animate__animated animate__fadeOut"
+    
+    >
     <router-view />
+    </transition>
+    
     </div>
 </template>
 
